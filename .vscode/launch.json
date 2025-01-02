@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Book",
+      "request": "launch",
+      "mainClass": "com.lib.entities.Book",
+      "projectName": "demo"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-BookLibApplication<demo>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.lib.demo.BookLibApplication",
+      "projectName": "demo",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
